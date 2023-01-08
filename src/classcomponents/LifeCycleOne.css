@@ -1,0 +1,18 @@
+.block {
+  display: flex;
+  flex-direction: column;
+  /* flex-wrap: wrap; */
+}
+.sub-block {
+  flex: 100%;
+  display: flex;
+  flex-wrap: wrap;
+}
+.img-block {
+  flex: 16%;
+  margin: 20px;
+}
+
+.des-block {
+  flex: 80%;
+}
